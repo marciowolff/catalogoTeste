@@ -2,7 +2,7 @@
 
 Para visualizar o projeto você precisa instalar algumas ferramentas.
 
-LINK PARA A DEMONSTRACAO: www.marciowolff.com.br/catalogotimes ou http://marciowolff.tempsite.ws/catalogotimes
+LINK PARA A DEMONSTRACAO: www.marciowolff.com.br/catalogotimes 
 
 ## NodeJS
 
