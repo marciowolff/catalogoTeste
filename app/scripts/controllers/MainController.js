@@ -13,9 +13,7 @@ app.controller('MainController', ['$scope', '$rootScope', '$location', 'Alert', 
   	};
 
   	$scope.openSerie = function(serie){
-    	//serie = (serie ? serie : $scope.series[0]);
-	    if($location.path() !== '/'){
-	      console.log('entrou');
+    	if($location.path() !== '/'){
 	      $rootScope.serie = serie;
 	      $location.path('/');
 	    };
@@ -30,7 +28,7 @@ app.controller('MainController', ['$scope', '$rootScope', '$location', 'Alert', 
 	        });       
 	      })
 	      .error(function (err){
-	        Alert.addMessageError('', 'Elenco não encontrado.');
+	        Alert.addMessageError('', 'Times não encontrado.');
 	      });
 	};
 }]);

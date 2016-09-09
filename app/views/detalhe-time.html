@@ -1,31 +1,32 @@
 
 <app-header></app-header>
 
-<div class="container">
+<section ng-show="time" class="container-times">
 	<messages></messages>
 
-	<aside class="row">
-		<button ng-if="showGoBack" type="button" class="btn btn-link color-black inverter" ng-click="goBack()">
-			<span class="glyphicon glyphicon-chevron-left"></span>
-		    Voltar
-		</button>
-	</aside>
-
-
-	<section ng-show="time" class="container-times col-sm-9 col-sm-offset-1">
-
-		<header class="row header">
+	<header class="header">
+		<div class="container">
 			<img ng-src="{{time.logo}}"/> 
-			<h1 class="title">{{time.nome}}</h1>
+
+			<div class="content-title">
+				<h1 class="title">{{time.nome}}</h1>
+				<button ng-if="showGoBack" type="button" class="btn btn-link color-black inverter" ng-click="goBack()">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				    Voltar
+				</button>
+			</div>
 			
-			<div class="form-group">			
+			<div class="form-group">	
+				<label class="control-label">Selecione uma posição: </label>		
 				<select class="form-control" ng-options="jogador.posicao for jogador in time.jogadores track by jogador.id" ng-model="posicaoselecionada">
 					<option value="">Selecione</option>				
 				</select>
 			</div>
-		</header>
+		</div>
+	</header>
 
-		<article class="body" ng-if="jogadores">
+	<article class="body" ng-if="jogadores">
+		<div class="container">
 			<ul class="col-sm-4">
 				<li class="jogadores">
 					<h3>{{jogadores.posicao}}</h3>
@@ -50,8 +51,8 @@
 					<p>Posição: {{perfil.posicao}}</p>
 				</div>
 			</aside>
-		</article>
-	</section>	
-</div>
+		</div>
+	</article>
+</section>	
 
 <app-footer></app-footer>

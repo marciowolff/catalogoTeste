@@ -11,7 +11,7 @@ services.factory('timesAPIServices', [ '$http', function ($http) {
         headers: {
           'Content-type': 'application/json'
         },
-        url: '../scripts/services/mock/series.json',
+        url: 'scripts/services/mock/series.json',
         withCredentials: true
       });
     },
@@ -21,7 +21,7 @@ services.factory('timesAPIServices', [ '$http', function ($http) {
         headers: {
           'Content-type': 'application/json'
         },
-        url: '../scripts/services/mock/escalacoes/'+idTime+'.json',
+        url: 'scripts/services/mock/escalacoes/'+idTime+'.json',
         withCredentials: true
       });
     },
@@ -31,7 +31,7 @@ services.factory('timesAPIServices', [ '$http', function ($http) {
         headers: {
           'Content-type': 'application/json'
         },
-        url: '../scripts/services/mock/perfil.json',
+        url: 'scripts/services/mock/perfil.json',
         withCredentials: true
       });
     }
