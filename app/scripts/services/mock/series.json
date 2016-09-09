@@ -1,0 +1,25 @@
+{
+	"series": [
+		{
+			"titulo": "Série A",
+			"nome": "A",
+			"times": [
+				{"id":"1", "logo": "http://s.glbimg.com/es/sde/f/equipes/2014/04/14/corinthians_60x60.png", "nome": "Corinthians"},
+				{"id":"2", "logo": "http://s.glbimg.com/es/sde/f/equipes/2015/07/21/sport65.png", "nome": "Sport"},
+				{"id":"3", "logo": "http://s.glbimg.com/es/sde/f/equipes/2016/06/08/America-MG_65_YAXGu0v.png", "nome": "América MG"},
+				{"id":"4", "logo": "http://s.glbimg.com//es/sde/f/organizacoes/2014/04/14/santos_60x60.png", "nome": "Santos"},
+				{"id":"5", "logo": "http://s.glbimg.com//es/sde/f/organizacoes/2014/04/14/cruzeiro_60x60.png", "nome": "Cruzeiro"},
+				{"id":"6", "logo": "http://s.glbimg.com//es/sde/f/organizacoes/2014/04/14/internacional_60x60.png", "nome": "Internacional"},
+				{"id":"7", "logo": "http://s.glbimg.com/es/sde/f/equipes/2014/04/14/ponte_preta_60x60.png", "nome": "Ponte Preta"},
+				{"id":"8", "logo": "http://s.glbimg.com/es/sde/f/equipes/2014/04/14/coritiba_60x60.png", "nome": "Coritiba"}				
+			]
+		},
+		{
+			"titulo": "Série B",
+			"nome": "B",
+			"times": [
+				{"id":"15", "logo": "http://s.glbimg.com/es/sde/f/equipes/2016/07/29/Vasco-65.png", "nome": "Vasco"}				
+			]
+		}
+	]
+}

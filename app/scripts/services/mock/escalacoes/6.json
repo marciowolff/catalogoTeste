@@ -1,0 +1,46 @@
+
+{
+	"nome": "Internacional",
+	"logo": "http://s.glbimg.com//es/sde/f/organizacoes/2014/04/14/internacional_60x60.png",
+	"jogadores": [
+		{
+			"posicao": "Goleiro", 
+			"id": "G",
+			"nomes": [
+				{"nome": "Danilo Fernandes"},
+				{"nome": "Marcelo Lomba"}
+			]
+		},
+		{
+			"posicao": "Defensore", 
+			"id": "D",
+			"nomes": [
+				{"nome": "Alan Costa"},
+				{"nome": "Ceará"},
+				{"nome": "Geferson"},
+				{"nome": "Ernando"},
+				{"nome": "Paulão"}
+			]
+		},
+		{
+			"posicao": "Meia", 
+			"id": "M",
+			"nomes": [
+				{"nome": "Alex"},
+				{"nome": "Andrigo"},
+				{"nome": "Valdivia"},
+				{"nome": "Seijas"},
+				{"nome": "Rodrigo Dourado"}
+			]
+		},
+		{
+			"posicao": "Atacante", 
+			"id": "A",
+			"nomes": [
+				{"nome": "Ariel"},
+				{"nome": "Eduardo Sasha"},
+				{"nome": "Nico Lopez"}
+			]
+		}				
+	]
+}

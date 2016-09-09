@@ -1,0 +1,46 @@
+
+{
+	"nome": "Sport",
+	"logo": "http://s.glbimg.com/es/sde/f/equipes/2015/07/21/sport65.png",
+	"jogadores": [
+		{
+			"posicao": "Goleiro", 
+			"id": "G",
+			"nomes": [
+				{"nome": "Agenor"},
+				{"nome": "Magrão"}
+			]
+		},
+		{
+			"posicao": "Defensore", 
+			"id": "D",
+			"nomes": [
+				{"nome": "Apodi"},
+				{"nome": "Durval"},
+				{"nome": "Matheus Ferraz"},
+				{"nome": "Renê"},
+				{"nome": "Samuel Xavier"}
+			]
+		},
+		{
+			"posicao": "Meia", 
+			"id": "M",
+			"nomes": [
+				{"nome": "Diego Souza"},
+				{"nome": "Gabriel Xavier"},
+				{"nome": "Rithely"},
+				{"nome": "Ronaldo"},
+				{"nome": "Serginho"}
+			]
+		},
+		{
+			"posicao": "Atacante", 
+			"id": "A",
+			"nomes": [
+				{"nome": "Edmílson"},
+				{"nome": "Rogério"},
+				{"nome": "Vinícius Araujo"}
+			]
+		}				
+	]
+}

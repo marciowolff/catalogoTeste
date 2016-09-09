@@ -1,0 +1,232 @@
+// Structure
+@HeaderPagH:        60px;
+@HeaderColor:       #328300;
+@black:             #383838;
+@PanelBorderColor:  #c8c8c8;
+@colorSucess:       #00B99B;
+@colorError:        #CF4D46;
+@colorWarn:         #FBB500;
+
+
+body {
+  font-family: 'Verdana';
+  color: @black;
+}
+
+
+html, body {
+  height: 100%;
+
+  .viewApp  {
+    //min-height: 100%; 
+    position: relative;
+    padding-bottom: 40px;
+    min-height: 99.8%;
+    > .container{
+      padding-top: @HeaderPagH + 80px;
+      padding-bottom: 30px;
+      z-index: 5;
+    }
+
+    // Footer
+    #footerPag {
+      position: absolute; left: 0; top: 100%; width: 100%; margin-top: -40px;
+      display: block;
+      background-color: @HeaderColor + 20;
+      z-index: 9;
+
+      .content-footer {overflow: hidden; padding: 0;}
+
+        .copyright {
+          border-top: 1px solid @HeaderColor - 10;
+          height: 40px; line-height: 40px;
+          text-align: center; color: #FFF; font-size: 14px;
+          margin: 0; padding: 0;
+        }
+    }
+  }
+}
+
+//ALERT {INICIO}
+.alert-section {list-style: none;}
+.alert{
+  position: relative;
+  text-align: left;
+  font-size: 14px;
+  color: #FFF;
+  border-radius: 0;
+  border: 0 none;
+  padding: 20px 20px 20px 10px;
+
+
+  li {
+    display: table;
+    width: 100%;
+    
+    .close {position: absolute; top: 10px; right: 15px;}
+    .alert-content {display: table-cell; vertical-align: middle;}    
+
+    .alert-content {
+      width: 99%;
+      p, h4 {margin: 0;}
+      h4 {font-size: 16px;}
+    }
+  }
+
+
+  &.alert-danger  {background-color: @colorError;}
+  &.alert-warning {background-color: @colorWarn;}
+  &.alert-success {background-color: @colorSucess;}
+}
+//ALERT {FIM}
+
+#headerPag {
+  position: fixed; top: 0; left: 0;
+  width: 100%;
+  color: #ffffff;
+  z-index: 10;   
+  background: #FFF;
+  box-shadow: 0 0 5px 0 #333;
+
+  .header{
+    background-color: @HeaderColor;
+    border-bottom: 3px solid @HeaderColor - 10;
+    height: @HeaderPagH; padding-top: 10px;
+
+    .logo {font-size: 26px; color: #DDD; text-decoration: none;}
+  }
+
+  nav {
+    height: 36px;
+    line-height: 36px;
+    a {
+      color: #000; border-right: 1px solid #CCC;
+    }
+  }
+}
+
+.btn {
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  border: 0 none;
+  box-shadow: none;
+  border-radius: 3px;
+  padding-top: 7px;
+
+  &.color-black {color: @black;}
+  
+  &.inverter {
+    text-decoration: none;
+
+    &:hover,
+    &:focus,
+    &:active:focus {
+      text-decoration: underline;
+    }
+  }
+
+  &.btn-link {background: transparent;}
+
+  &.btn-primary {
+    font-size: 14px;
+    text-decoration: none;
+    color: #d03a00;   
+    background: transparent;
+    padding: 0;
+
+    &:hover,
+    &:focus,
+    &:active:focus {
+      color: @black;         
+    }
+  }
+}
+
+
+.container-times {  
+  .header {
+    display: block;
+    overflow: hidden;
+
+    *{float: left;}
+    img {margin-left: 30px;}
+    .title {margin: 10px 30px 0;}
+    .form-group {margin-top: 15px; float: right;}
+
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid @PanelBorderColor;
+  }
+
+
+  .footer {
+    height: 45px;
+    text-align: right;
+    border: 1px solid @PanelBorderColor;
+    background: @PanelBorderColor + 20;
+    padding-right: 30px;
+    color: #d03a00;    
+    
+    .btn-primary {line-height: 30px;}
+  }
+
+  .times{
+    list-style: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid @PanelBorderColor;
+    border-radius: 5px;
+    height: 125px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+
+    .header {
+      height: 80px; border: none; padding-bottom: 0; margin-bottom: 0;
+
+      .title {margin-top: 20px;}
+    }
+
+    &:hover {
+      border-color:@PanelBorderColor - 20;
+      box-shadow: 0px 0px 3px 1px #999;
+
+      .icon-mais {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .jogadores {
+    list-style: none;
+
+    .list {
+      margin: 0;
+      padding: 0;
+      li{
+        margin-bottom: 5px; line-height: 20px;
+        list-style: none;
+
+        .btn {
+          width: 90%;
+          text-align: left;
+          box-shadow: 0px 0px 3px 1px #999;
+          padding: 5px 10px;
+          span{font-weight: bold; font-style: 2em; float: right;}
+        }
+      }
+    }
+  }
+
+  .perfil {
+    border: 1px solid @PanelBorderColor;
+    padding: 10px;
+    margin-top: 55px;
+    box-shadow: 0px 0px 2px 0px #999;
+
+    p{margin: 0;}
+  }
+}
+
+

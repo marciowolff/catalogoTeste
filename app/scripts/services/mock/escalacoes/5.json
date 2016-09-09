@@ -1,0 +1,46 @@
+
+{
+	"nome": "Cruzeiro",
+	"logo": "http://s.glbimg.com//es/sde/f/organizacoes/2014/04/14/cruzeiro_60x60.png",
+	"jogadores": [
+		{
+			"posicao": "Goleiro", 
+			"id": "G",
+			"nomes": [
+				{"nome": "Fabio"},
+				{"nome": "Rafael"}
+			]
+		},
+		{
+			"posicao": "Defensore", 
+			"id": "D",
+			"nomes": [
+				{"nome": "Bruno Rodrigo"},
+				{"nome": "Manoel"},
+				{"nome": "Dedé"},
+				{"nome": "Lucas"},
+				{"nome": "Léo"}
+			]
+		},
+		{
+			"posicao": "Meia", 
+			"id": "M",
+			"nomes": [
+				{"nome": "Arrascaeta"},
+				{"nome": "Denilson"},
+				{"nome": "Henrique"},
+				{"nome": "Rafinha"},
+				{"nome": "Robinho"}
+			]
+		},
+		{
+			"posicao": "Atacante", 
+			"id": "A",
+			"nomes": [
+				{"nome": "Alisson"},
+				{"nome": "Rafael Sobis"},
+				{"nome": "Willian"}
+			]
+		}				
+	]
+}

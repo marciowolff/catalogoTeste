@@ -1,0 +1,57 @@
+
+<app-header></app-header>
+
+<div class="container">
+	<messages></messages>
+
+	<aside class="row">
+		<button ng-if="showGoBack" type="button" class="btn btn-link color-black inverter" ng-click="goBack()">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+		    Voltar
+		</button>
+	</aside>
+
+
+	<section ng-show="time" class="container-times col-sm-9 col-sm-offset-1">
+
+		<header class="row header">
+			<img ng-src="{{time.logo}}"/> 
+			<h1 class="title">{{time.nome}}</h1>
+			
+			<div class="form-group">			
+				<select class="form-control" ng-options="jogador.posicao for jogador in time.jogadores track by jogador.id" ng-model="posicaoselecionada">
+					<option value="">Selecione</option>				
+				</select>
+			</div>
+		</header>
+
+		<article class="body" ng-if="jogadores">
+			<ul class="col-sm-4">
+				<li class="jogadores">
+					<h3>{{jogadores.posicao}}</h3>
+					<ul class="list">
+						<li ng-repeat="nome in jogadores.nomes">
+							<a class="btn btn-primary" href ng-click="openPerfil(nome, jogadores)">
+								{{nome.nome}} <span>+</span>
+							</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+
+			<aside ng-show="perfil" class="perfil col-sm-8">
+				<div class="col-sm-3">
+					<img ng-src="{{perfil.foto}}" width="100px"/>
+				</div>
+
+				<div class="col-sm-9">
+					<h3>{{perfil.nome}}</h3>
+					<p>Idade: {{perfil.idade}}</p>
+					<p>Posição: {{perfil.posicao}}</p>
+				</div>
+			</aside>
+		</article>
+	</section>	
+</div>
+
+<app-footer></app-footer>

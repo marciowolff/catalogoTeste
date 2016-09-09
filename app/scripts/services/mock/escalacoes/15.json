@@ -1,0 +1,44 @@
+
+{
+	"nome": "Vasco",
+	"logo": "http://s.glbimg.com/es/sde/f/equipes/2016/07/29/Vasco-65.png",
+	"jogadores": [
+		{
+			"posicao": "Goleiro", 
+			"id": "G",
+			"nomes": [
+				{"nome": "Martin Silva"},
+				{"nome": "Jordi"}
+			]
+		},
+		{
+			"posicao": "Defensore", 
+			"id": "D",
+			"nomes": [
+				{"nome": "Aislan"},
+				{"nome": "Henrique"},
+				{"nome": "Jomar"},
+				{"nome": "Luan"},
+				{"nome": "Rafael Marques"}
+			]
+		},
+		{
+			"posicao": "Meia", 
+			"id": "M",
+			"nomes": [
+				{"nome": "Andrezinho"},
+				{"nome": "Diguinho"},
+				{"nome": "Nenê"}
+			]
+		},
+		{
+			"posicao": "Atacante", 
+			"id": "A",
+			"nomes": [
+				{"nome": "Eder luis"},
+				{"nome": "Jorge Henrique"},
+				{"nome": "Leandrão"}
+			]
+		}				
+	]
+}

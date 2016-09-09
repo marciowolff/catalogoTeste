@@ -1,0 +1,149 @@
+
+{
+	"nome": "Corinthians",
+	"logo": "http://s.glbimg.com/es/sde/f/equipes/2014/04/14/corinthians_60x60.png",
+	"jogadores": [
+		{
+			"posicao": "Goleiro", 
+			"id": "G",
+			"nomes": [
+				{
+					"nome": "Cássio", 
+					"detalhe": {
+						"foto" : "../images/foto-nao-encontrada.jpg",
+						"idade": "30"
+					}
+				},
+				{
+					"nome": "Walter",
+					"detalhe": {
+						"foto" : "../images/foto-nao-encontrada.jpg",
+						"idade": "30"
+					}
+				}
+			]
+		},
+		{
+			"posicao": "Defensor", 
+			"id": "D",
+			"nomes": [
+				{
+					"nome": "Balbuena",
+					"detalhe": {
+						"foto" : "../images/foto-nao-encontrada.jpg",
+						"idade": "30"
+					}
+				},
+				{
+					"nome": "Fagner",
+					"detalhe": {
+						"foto" : "../images/foto-nao-encontrada.jpg",
+						"idade": "30"
+					}
+				},
+				{
+					"nome": "Guilherme Arana",
+					"detalhe": {
+						"foto" : "../images/foto-nao-encontrada.jpg",
+						"idade": "30"
+					}
+				},
+				{
+					"nome": "Uendel",
+					"detalhe": {
+						"foto" : "../images/foto-nao-encontrada.jpg",
+						"idade": "30"
+					}
+				},
+				{
+					"nome": "Yago",
+					"detalhe": {
+						"foto" : "../images/foto-nao-encontrada.jpg",
+						"idade": "30"
+					}
+				}
+			]
+		},
+		{
+			"posicao": "Meia", 
+			"id": "M",
+			"nomes": [
+				{"nome": "Cristian",
+					"detalhe": {
+						"foto" : "../images/foto-nao-encontrada.jpg",
+						"idade": "30"
+					}
+				},
+				{
+					"nome": "Danilo",
+					"detalhe": {
+						"foto" : "../images/foto-nao-encontrada.jpg",
+						"idade": "30"
+					}
+				},
+				{
+					"nome": "Giovanni Augusto",
+					"detalhe": {
+						"foto" : "../images/foto-nao-encontrada.jpg",
+						"idade": "30"
+					}
+				},
+				{
+					"nome": "Guilherme",
+					"detalhe": {
+						"foto" : "../images/foto-nao-encontrada.jpg",
+						"idade": "30"
+					}
+				},
+				{
+					"nome": "Marlone",
+					"detalhe": {
+						"foto" : "../images/foto-nao-encontrada.jpg",
+						"idade": "30"
+					}
+				},
+				{
+					"nome": "Marquinhos Gabriel",
+					"detalhe": {
+						"foto" : "../images/foto-nao-encontrada.jpg",
+						"idade": "30"
+					}
+				},
+				{
+					"nome": "Rodriguinho",
+					"detalhe": {
+						"foto" : "../images/foto-nao-encontrada.jpg",
+						"idade": "30"
+					}
+				}
+			]
+		},
+		{
+			"posicao": "Atacante", 
+			"id": "A",
+			"nomes": [
+				{
+					"nome": "Lucca",
+					"detalhe": {
+						"foto" : "../images/foto-nao-encontrada.jpg",
+						"idade": "30"
+					}
+				},
+				{
+					"nome": "Ángel Romero",
+					"detalhe": {
+						"foto" : "../images/foto-nao-encontrada.jpg",
+						"idade": "30"
+					}
+				},
+				{
+					"nome": "Rildo",
+					"detalhe": {
+						"foto" : "../images/foto-nao-encontrada.jpg",
+						"idade": "30"
+					}
+				}
+			]
+		}				
+	]
+}

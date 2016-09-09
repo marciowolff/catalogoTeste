@@ -1,0 +1,45 @@
+
+{
+	"nome": "América MG",
+	"logo": "http://s.glbimg.com/es/sde/f/equipes/2016/06/08/America-MG_65_YAXGu0v.png",
+	"jogadores": [
+		{
+			"posicao": "Goleiro", 
+			"id": "G",
+			"nomes": [
+				{"nome": "João Ricardo"},
+				{"nome": "Glauco"}
+			]
+		},
+		{
+			"posicao": "Defensore", 
+			"id": "D",
+			"nomes": [
+				{"nome": "Alison"},
+				{"nome": "Jonas"},
+				{"nome": "Roger"},
+				{"nome": "Pablo"}
+			]
+		},
+		{
+			"posicao": "Meia", 
+			"id": "M",
+			"nomes": [
+				{"nome": "Claudinei"},
+				{"nome": "Diego Lopes"},
+				{"nome": "Ernandes"},
+				{"nome": "Guilherme Xavier"},
+				{"nome": "Juninho"}
+			]
+		},
+		{
+			"posicao": "Atacante", 
+			"id": "A",
+			"nomes": [
+				{"nome": "Nixon"},
+				{"nome": "Vitinho"},
+				{"nome": "Nilson"}
+			]
+		}				
+	]
+}

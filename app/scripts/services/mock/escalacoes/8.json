@@ -1,0 +1,46 @@
+
+{
+	"nome": "Coritiba",
+	"logo": "http://s.glbimg.com/es/sde/f/equipes/2014/04/14/coritiba_60x60.png",
+	"jogadores": [
+		{
+			"posicao": "Goleiro", 
+			"id": "G",
+			"nomes": [
+				{"nome": "Wilson"},
+				{"nome": "Bruno"}
+			]
+		},
+		{
+			"posicao": "Defensore", 
+			"id": "D",
+			"nomes": [
+				{"nome": "Carlinhos"},
+				{"nome": "Dodô"},
+				{"nome": "Juninho"},
+				{"nome": "Luccas Claro"},
+				{"nome": "Geovane"}
+			]
+		},
+		{
+			"posicao": "Meia", 
+			"id": "M",
+			"nomes": [
+				{"nome": "Alan Costa"},
+				{"nome": "Amaral"},
+				{"nome": "Edinho"},
+				{"nome": "Felipe Amorim"},
+				{"nome": "Juan"}
+			]
+		},
+		{
+			"posicao": "Atacante", 
+			"id": "A",
+			"nomes": [
+				{"nome": "Evandro"},
+				{"nome": "Cleber"},
+				{"nome": "Kazim"}
+			]
+		}				
+	]
+}

@@ -1,0 +1,46 @@
+
+{
+	"nome": "Ponte Preta",
+	"logo": "http://s.glbimg.com/es/sde/f/equipes/2014/04/14/ponte_preta_60x60.png",
+	"jogadores": [
+		{
+			"posicao": "Goleiro", 
+			"id": "G",
+			"nomes": [
+				{"nome": "Aranha"},
+				{"nome": "César"}
+			]
+		},
+		{
+			"posicao": "Defensore", 
+			"id": "D",
+			"nomes": [
+				{"nome": "Douglas Grolli"},
+				{"nome": "Fabio Ferreira"},
+				{"nome": "Kadu"},
+				{"nome": "Reinaldo"},
+				{"nome": "Nino Paraíba"}
+			]
+		},
+		{
+			"posicao": "Meia", 
+			"id": "M",
+			"nomes": [
+				{"nome": "Clayton"},
+				{"nome": "René Junior"},
+				{"nome": "Wendel"},
+				{"nome": "Ravanelli"},
+				{"nome": "Maycon"}
+			]
+		},
+		{
+			"posicao": "Atacante", 
+			"id": "A",
+			"nomes": [
+				{"nome": "Felipe Azevedo"},
+				{"nome": "Rayner"},
+				{"nome": "Roger"}
+			]
+		}				
+	]
+}

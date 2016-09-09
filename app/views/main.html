@@ -1,0 +1,35 @@
+
+<app-header></app-header>
+
+<div class="container">
+	<messages></messages>
+
+	<section ng-show="times.length > 0">
+		<header class="row text-center">
+			<h1>{{tituloSerie}}</h1>
+		</header>
+
+		<article class="container-times col-sm-11">
+
+			<aside ng-repeat="time in times" class="times col-sm-5 col-sm-offset-1" ng-class-even="'col-sm-offset-1'" ng-click="detalhe(time)">
+				<div class="row header">				
+					<img class="" ng-src="{{time.logo}}"/> 
+					<h3 class="title">{{time.nome}}</h3>
+				</div>
+				<div class="row footer">
+					<span class="btn btn-primary">Elenco</span> 
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</div>
+			</aside>
+
+		</article>
+	</section>	
+
+	<section ng-hide="times.length > 0">		
+		<h3>Quais times deseja visualizar?</h3>
+		<p>Escolha uma das opções do menu acima.</p>
+	</section>
+
+</div>
+
+<app-footer></app-footer>

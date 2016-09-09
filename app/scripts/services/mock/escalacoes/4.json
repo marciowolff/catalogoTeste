@@ -1,0 +1,46 @@
+
+{
+	"nome": "Santos",
+	"logo": "http://s.glbimg.com//es/sde/f/organizacoes/2014/04/14/santos_60x60.png",
+	"jogadores": [
+		{
+			"posicao": "Goleiro", 
+			"id": "G",
+			"nomes": [
+				{"nome": "Vanderlei"},
+				{"nome": "Vladimir"}
+			]
+		},
+		{
+			"posicao": "Defensore", 
+			"id": "D",
+			"nomes": [
+				{"nome": "Caju"},
+				{"nome": "David Braz"},
+				{"nome": "Gustavo Henrique"},
+				{"nome": "Luiz Felipe"},
+				{"nome": "Zeca"}
+			]
+		},
+		{
+			"posicao": "Meia", 
+			"id": "M",
+			"nomes": [
+				{"nome": "Lucas Lima"},
+				{"nome": "Alison"},
+				{"nome": "Elano"},
+				{"nome": "Renato"},
+				{"nome": "Tiago Maia"}
+			]
+		},
+		{
+			"posicao": "Atacante", 
+			"id": "A",
+			"nomes": [
+				{"nome": "Ricardo Oliveira"},
+				{"nome": "Rodrigão"},
+				{"nome": "Copete"}
+			]
+		}				
+	]
+}

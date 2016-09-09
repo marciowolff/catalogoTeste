@@ -1,0 +1,21 @@
+
+
+<header id="headerPag">
+	<div class="header" class="row">
+		<div class="container">
+			<a ng-click="go('/')" class="logo" title="Catálogo de Times">Catálogo de Times</a>	
+		</div>
+	</div>
+
+	<nav>
+		<div class="container">
+			<ul class="nav nav-pills">
+				<li ng-repeat="serie in series">
+					<a href ng-click="openSerie(serie)">
+						{{serie.titulo}}
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+</header>
