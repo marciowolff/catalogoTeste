@@ -105,7 +105,7 @@ html, body {
   }
 
   nav {
-    height: 36px;
+    height: 56px;
     line-height: 36px;
     a {
       color: #000; border-right: 1px solid #CCC;
@@ -138,7 +138,7 @@ html, body {
 
   &.btn-link {background: transparent;}
 
-  &.btn-primary {
+  &.btn-primary { 
     font-size: 14px;
     text-decoration: none;
     color: #d03a00;   
@@ -174,7 +174,7 @@ html, body {
     margin-bottom: 30px;
     border-bottom: 2px solid @PanelBorderColor - 10;
 
-    .degrade(top, #FFF, #FFF, #CCC);
+    .degrade(top, #FFF, #FFF, #CCC);    
   }
 
 
@@ -234,9 +234,10 @@ html, body {
           span{font-weight: bold; font-style: 2em; float: right;}
 
           .degrade(top, #FFF, #FFF, #CCC);
-
+          
           &:hover, &:active, &:focus{
             .degrade(top, #FFF, #FFF, #FFF);
+            background: none !important;
           }
         }
       }
